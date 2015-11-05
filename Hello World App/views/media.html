@@ -1,0 +1,13 @@
+<div data-role="view" data-title="Media" data-layout="main" data-model="APP.models.media">
+    <h1 data-bind="html: title"></h1>
+    <center>
+            <a data-role="button" data-click="" data-icon="favorites"></a>
+            <p>
+                <iframe id = "video" width="854" height="480" src="https://www.youtube.com/embed/OBKU_1OP87U" frameborder="0" allowfullscreen></iframe>
+                <script>
+                    document.getElementById("video").width = screen.width;
+                    document.getElementById("video").height = screen.width*.56;
+                </script>
+            </p>
+    </center>
+</div>
